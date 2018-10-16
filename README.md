@@ -55,3 +55,5 @@ git push origin 标签名：推送标签到远程；
 git push origin --tags:一次性推送全部尚未推送到远程的本地标签；
 
 git tag -d 标签名:先从本地删除，再git push origin :refs/tags/标签名：删除远程标签；  
+
+git init:通过git init命令把这个目录变成Git可以管理的仓库：
